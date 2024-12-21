@@ -17,9 +17,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap" rel="stylesheet">
   <style>
+
+.nav-link {
+  color: white; 
+}
+
+ul.nav a:hover { color: #000000 }
     body {
       font-family: 'inter';
-      background-color: rgb(4, 19, 1);
+      background-color: rgb(9, 11, 8);
     }
 
     header {
@@ -42,7 +48,39 @@
       padding-bottom: 20px;
     }
     h1 {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 3rem;
 
+    }
+    h2 {
+      color: rgb(193, 193, 193);
+      padding: 10px;
+      font-size: 2rem;
+    }
+    h3 {
+      color: rgb(113, 183, 47);
+
+    }
+    .card-body {
+      padding: 10px;
+    }
+    .white-bg-black-txt {
+      background-color: white;
+      color: #000000;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color:  rgb(255, 255, 255);
+    }
+    .nomorebullets {
+      list-style: none;
+    }
+    button :hover {
+      color: #000000;
     }
   </style>
 </head>
@@ -53,7 +91,7 @@
     crossorigin="anonymous"></script>
 
   <header class="navbar p-4 navbar-expand-lg sticky-top">
-    <nav class="container-fluid">
+    <nav class="container-fluid fs-5">
       <div class="d-flex align-items-center">
         <a class="navbar-brand" href="index.html">FitVibe</a>
         <a href="index.html"> <img class="logo" src="watch-fitness.png" alt="logo FitVibe"> </a>
@@ -116,7 +154,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <h1> YAY </h1>
+  <h1 class="fs-1"> FitVibe - Pentru sănătatea ta </h1>
   <div class="container">
     <h2 id="Abonamente"> Abonează-te acum! </h2>
     <div class="card-group">
@@ -125,7 +163,7 @@
           <h2 class="card-title"> Săptămânal </h2>
           <p class="card-text">Flexibilitate maximă pentru un stil de viață activ! Alege abonamentul săptămânal și
             antrenează-te după programul tău.</p>
-          <p> 20 € </p>
+          <p> 20 &euro; </p>
           <a href="https://www.paypal.com/ro/home" target="_blank" class="btn btn-primary">Începe acum</a>
         </div>
       </div>
@@ -134,7 +172,7 @@
           <h2 class="card-title"> Premium </h2>
           <p class="card-text"> Transformă fitness-ul într-un stil de viață! Cu Premium, ai acces complet la toate
             facilitățile și bonusuri exclusive. Doar cu noi!</p>
-          <p> 25 €</p>
+          <p> 25 &euro; </p>
           <a href="https://www.paypal.com/ro/home" target="_blank"  class="btn btn-primary">Începe acum</a>
         </div>
       </div>
@@ -143,44 +181,29 @@
           <h2 class="card-title"> XMAS <span class="badge text-bg-secondary">Nou!</span> </h2>
           <p class="card-text">Intră în spiritul sărbătorilor și începe anul cu energie! Abonamentul nostru de Crăciun
             îți oferă acces special și beneficii unice.</p>
-          <p> 30 € </p>
+          <p> 30 &euro; </p>
           <a href="https://www.paypal.com/ro/home" target="_blank"  class="btn btn-primary">Începe acum</a>
         </div>
       </div>
     </div>
+   
     <h2 id="Servicii"> Servicii </h2>
-    <div class="card-group">
-      <div class="card">
-        <div class="card-body">
-          <h3 class="card-title">Planuri de nutriție</h3>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h3 class="card-title">Diete</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h3 class="card-title">Evaluare și monitorizare</h3>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <h3> Planuri de nutriție </h3>
-  <h3> Diete </h3>
+    <div class="white-bg-black-txt">
+   <h3>Planuri de nutriție </h3>
+   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam sint aspernatur aliquam ex nostrum temporibus ipsum asperiores molestiae quo. Architecto amet esse praesentium laboriosam porro iure recusandae totam voluptatem.</p>
+   <h3> Diete</h3>
   <h4> Personalizat - Clean Bulk </h4>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam sint aspernatur aliquam ex nostrum temporibus ipsum asperiores molestiae quo. Architecto amet esse praesentium laboriosam porro iure recusandae totam voluptatem.</p>
   <h4> Personalizat - Clean weight loss </h4>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam sint aspernatur aliquam ex nostrum temporibus ipsum asperiores molestiae quo. Architecto amet esse praesentium laboriosam porro iure recusandae totam voluptatem.</p>
+  <h4> Personalizat - Body building </h4>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam sint aspernatur aliquam ex nostrum temporibus ipsum asperiores molestiae quo. Architecto amet esse praesentium laboriosam porro iure recusandae totam voluptatem.</p>
   <h3> Evaluare și monitorizare </h3>
+  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laboriosam sint aspernatur aliquam ex nostrum temporibus ipsum asperiores molestiae quo. Architecto amet esse praesentium laboriosam porro iure recusandae totam voluptatem.</p>
 
-
-  <h2 id="Desprenoi"> Despre noi</h2>
+</div>
+  <h2 id="Desprenoi" class="text-center"> Despre noi</h2>
+  
   <div class="container card-group">
     <div class="card col-lg-4 col-md-12 col-sm-12">
       <img src="desprenoi/people-with-a-healthy-heart.jpg" alt="..">
@@ -207,8 +230,7 @@
       </div>
     </div>
   </div>
-  </div>
-  <h2 id="FAQ"> FAQ </h2>
+  <h2 id="FAQ" class="text-center"> FAQ </h2>
   <div class="accordion accordion-flush" id="myaccordionflush">
     <div class="accordion-item">
       <h3 class="accordion-header">
@@ -273,15 +295,42 @@
   </div>
 
   <h2 id="Contact"> Contact</h2>
+  <div class="container p-4 m-2 text-center"> 
+    <div class="row"> 
+      <div class="col-sm-12 col-lg-6 col-md-6 col-xl-6">
   <h3> Unde ne găsești</h3>
-  <h3> Nr. de telefon </h3>
-  <h3> Social media </h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2733.6581894200526!2d23.521438412564475!3d46.751921446484126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490faaab9879ab%3A0x28312986336e4e5d!2sGym%20Point!5e0!3m2!1sro!2sro!4v1734797272551!5m2!1sro!2sro" height="250px"  style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  <div class="col-sm-12 col-lg-6 col-md-6 col-xl-6">
   <h3> Orar </h3>
+  <ul class="nomorebullets">
+    <li> De Luni până Vineri: 8:00 - 22:00</li>
+    <li> Sâmbătă: 8:00 - 20:00</li>
+    <li> Duminică: 10:00 - 20:00</li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+  <footer class="p-3 container-fluid">
+    <div class="row">
+    <div class="col">
+    <ul class="nomorebullets">
+      <li> &copy; 2024 FitVibe – Pentru sănătatea ta
+        Toate materialele afișate pe acest site aparțin exclusiv Stay Fit Gym.</li>
+      <li>Nr. de telefon: <a href="tel:07xxxxxxx">07xxxxxx</a></li>
+      <li>Email: <a href="mailto:fitvibe@gmail.com">fitvibe@gmail.com</a></li>
+  </ul>
+</div>
+  <div class="col d-flex justify-content-end align-items-center p-2">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="m-1">  <img
+    src="appicons/instagram.png" alt="Instagram Logo"> </a>
+<a href="https://www.youtube.com/watch?v=BbeeuzU5Qc8" target="_blank"> <img src="appicons/facebook.png"
+    alt="Facebook Logo" class="m-1">  </a>
+<a href="https://www.youtube.com/watch?v=oavMtUWDBTM" target="_blank"> <img src="appicons/whatsapp.png"
+    alt="Whatsapp Logo" class="m-1"> </a>
+    </div>
   </div>
-  </div>
-  </div>
-  <footer>
-
   </footer>
 </body>
 
